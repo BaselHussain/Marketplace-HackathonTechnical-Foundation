@@ -1,0 +1,10 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Remarks
+TC001,Validate Product Listing Page,"Open Products Page > Validate Products>Checked whether product pice, image and description showing",Products Display Successfully,Products Displayed Successfully,Passed,Low,No Error
+TC002,Check Cart Functionality,Product Added To Cart>All item displaying in cart> Quantity also increased> Price also increased with quantity > Delete product from cart,Displaying Products On Cart, Products Displayed On Cart,Passed,Medium,Successful test
+TC003,Validate Dynamic Product Details Page,Open Product Page> Click on any product to view its details,Product Detail Page open with that specific product details,Dynamic Routing Working ,Passed,Medium,No issue
+TC004,Test Search Bar Functionality,Searched items by their name,All products showing with that keyword,Only that products having that keyword displaying on screen,Passed,Medium,Working Successfully
+TC005,Cross Browsering And Device Testing,"Open and tested website on different Browsers such as yahoo, google, safari, edge",All Okay on every browser,All Okay on every browser,Passed,Low,Successful
+TC006,Test API Error Handling with try catch,Intentionally failed fetching> error message was logged,Show Error Message , Error Message displaying and no product appear,Passed,Low,Handle Gracefully
+TC007,Security Testing,Check that API calls are secured by https,API calls are secured,API calls are secured by https,Passed,low,secured efficiently
+TC008,User Acceptance Testing (UAT),Simulate real world scenerios by interacting your marketplace as user,"browsing, searching, add to cart are intuitive and error free",All operations were error free and working smoothly.,Passed,Medium,UAT Done
+TC009,Test API Response with Postman,Send a get request products API Endpoints > Correct should be returned .,API should return correct data.,API was returning fully correct response.,Passed,Medium,API Response test successful
